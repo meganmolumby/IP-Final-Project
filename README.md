@@ -27,5 +27,12 @@ New directory:
 
 ## Starting/Stopping the Server
 
+### Start the Server
+
 * **npm start**
+* Navigate to [http://localhost/](http://localhost/) to access.
+
+### Stop the Server
+
 * **npm stop**
+
