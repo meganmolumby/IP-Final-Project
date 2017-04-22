@@ -1,8 +1,14 @@
+*******************************************************************
+
 # [Internet Programming Final Project](https://github.com/Dyndrilliac/IP-Final-Project)
+
+*******************************************************************
 
 ## Description
 
 TODO
+
+*******************************************************************
 
 ## Authors
 
@@ -10,6 +16,8 @@ TODO
 * [Sean Domingo](#)
 * [Megan Molumby](https://github.com/meganmolumby)
 * [Khue Nguyen](#)
+
+*******************************************************************
 
 ## Cloning the Repository
 
@@ -21,9 +29,13 @@ New directory:
 
 * **git clone https://github.com/Dyndrilliac/IP-Final-Project.git**
 
+*******************************************************************
+
 ## Installing the Dependencies
 
 * **npm install --save**
+
+*******************************************************************
 
 ## Starting/Stopping the Server
 
@@ -36,3 +48,4 @@ New directory:
 
 * **npm stop**
 
+*******************************************************************
