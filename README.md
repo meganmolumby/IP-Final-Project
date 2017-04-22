@@ -11,7 +11,7 @@ TODO
 * [Megan Molumby](https://github.com/meganmolumby)
 * [Khue Nguyen](#)
 
-## Clone
+## Cloning the Repository
 
 Current directory:
 
@@ -21,11 +21,11 @@ New directory:
 
 * **git clone https://github.com/Dyndrilliac/IP-Final-Project.git**
 
-## Install Dependencies
+## Installing the Dependencies
 
 * **npm install --save**
 
-## Starting and Stopping Server
+## Starting/Stopping the Server
 
 * **npm start**
 * **npm stop**
