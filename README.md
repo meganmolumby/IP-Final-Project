@@ -25,6 +25,7 @@ New directory:
 
 * **npm install --save**
 
-## Run
+## Starting and Stopping Server
 
 * **npm start**
+* **npm stop**
