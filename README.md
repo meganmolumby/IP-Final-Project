@@ -41,11 +41,11 @@ New directory:
 
 ### Start the Server
 
-* **npm start**
+* **npm start** or **node ./bin/www.start**
 * Navigate to [http://localhost/](http://localhost/) to access.
 
 ### Stop the Server
 
-* **npm stop**
+* **npm stop** or **node ./bin/www.start**
 
 *******************************************************************
