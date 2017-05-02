@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workout</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+        .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+        .fa-anchor,.fa-coffee {font-size:200px}
+        table         { text-align: center;
+            border-collapse:collapse;
+            background-color: #f6ffcf;
+            vertical-align: middle;
+        }
+        table, td, th { border:1px solid black;
+            padding: 4px;}
+        th            { text-align: center;
+            color: #010115;
+            background-color: #eeff33;}
+        tr.oddrow     { background-color: white;}
+        li {text-align:left;}
+    </style>
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="w3-container w3-blue w3-center" style="padding:128px 16px">
+
+    <h1 class="w3-margin w3-jumbo">Random Week Workout Generator</h1>
+    <caption> <h4>Choose Type of Split</h4></caption>
+
+    <form action="main.php" method="get">
+        <select name="splitType">
+            <option value="fullBody">Full Body</option>
+            <option value="upperLower">Upper/Lower</option>
+            <option value="pushPullLower">Push/Pull/Lower</option>
+        </select>
+        <input type="submit">
+    </form>
+</header>
+
+<table>
+    <tr>
+        <th>Full Body</th>
+        <th>Upper/Lower</th>
+        <th>Push/Pull/Lower</th>
+    </tr>
+    <tr>
+        <td valign ="top">
+            <p>
+                This workout routine designed to be a whole body workout done on a single day with a
+                recommended recovery period of no less than 24 hours before performing this routine again.
+                A randomized selection of 2 exercises each for the following body parts:
+            </p>
+            <ul>
+                <li>Chest</li>
+                <li>Back</li>
+                <li>Legs</li>
+                <li>Abs</li>
+            </ul>
+        </td>
+        <td valign ="top">
+            <p>
+                This workout routine is designed to be performed over a two day split.  The workout is broken up
+                between upper and lower body parts.  A randomized selection of 4 exercises per body part and is broken up in the
+                following format:
+            </p>
+            <ul>
+                <li>Day 1 - Upper (chest, back, arms)</li>
+                <li>Day 2 - Lower(legs, abs)</li>
+            </ul>
+        </td>
+        <td valign ="top">
+            <p>This workout routine is designed to be performed over a 3 day split.  The workout is broken up between two
+                upper body part days and one lower body day.  A randomized selection of 4 exercises per body part and is broken up in the following
+                format:
+            </p>
+            <ul>
+                <li>Day 1 - Upper(chest, abs)</li>
+                <li>Day 2 - Upper(back, arms)</li>
+                <li>Day 3 - Lower(legs)</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <div class="w3-xlarge w3-padding-32">
+    </div>
+</footer>
+
+</body>
+</html>
+
